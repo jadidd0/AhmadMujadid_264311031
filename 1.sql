@@ -15,7 +15,7 @@ CREATE TABLE `instansi` (
   PRIMARY KEY (`Kode_Instansi`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
--- 3. Tabel Transaksi / Anak: insiden
+-- 3. Tabel Transaksi : insiden
 CREATE TABLE `insiden` (
   `Kode_Insiden` varchar(50) NOT NULL,
   `Jenis_Insiden` varchar(100) NOT NULL,
